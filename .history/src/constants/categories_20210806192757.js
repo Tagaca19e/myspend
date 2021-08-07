@@ -7,7 +7,7 @@ const incomeColors = [
   "#83d681",
   "#6dd660",
   "#c3ffe1",
-  "#bfffe5",
+  "#00ff9d",
 ];
 const expenseColors = [
   "#b50d12",

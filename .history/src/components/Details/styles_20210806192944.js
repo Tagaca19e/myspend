@@ -11,7 +11,7 @@ export default makeStyles(() => ({
   expense: {
     // borderBottom : '10px solid #a9abb3',
     backgroundColor: "white",
-    color: "balck",
+    color: "#dde0e3",
     borderRadius: "15px",
   },
 }));

@@ -118,7 +118,6 @@ const Form = () => {
           <Select
             value={formData.type}
             onChange={(e) => setFormData({ ...formData, type: e.target.value })}
-            style={{ color: "white" }}
           >
             <MenuItem value="Income">Income</MenuItem>
             <MenuItem value="Expense">Expense</MenuItem>
@@ -146,7 +145,6 @@ const Form = () => {
         <TextField
           type="number"
           label="Amount"
-          style={{ color: "white" }}
           fullWidth
           value={formData.amount}
           onChange={(e) => setFormData({ ...formData, amount: e.target.value })}

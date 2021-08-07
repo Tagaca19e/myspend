@@ -146,7 +146,6 @@ const Form = () => {
         <TextField
           type="number"
           label="Amount"
-          style={{ color: "white" }}
           fullWidth
           value={formData.amount}
           onChange={(e) => setFormData({ ...formData, amount: e.target.value })}

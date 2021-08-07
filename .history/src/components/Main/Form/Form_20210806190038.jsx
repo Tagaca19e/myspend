@@ -142,11 +142,10 @@ const Form = () => {
           </Select>
         </FormControl>
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={6} style={{ color: "white" }}>
         <TextField
           type="number"
           label="Amount"
-          style={{ color: "white" }}
           fullWidth
           value={formData.amount}
           onChange={(e) => setFormData({ ...formData, amount: e.target.value })}

@@ -84,8 +84,7 @@ label {
 
 input[type="text"],
 input[type="number"] {
-  border: 1px solid #fff6f6;
-  color: white;
+  border: 1px solid #000000;
   border-radius: 2px;
   display: block;
   font-size: 16px;
@@ -120,7 +119,7 @@ input[type="number"] {
 .list li {
   background-color: #fff;
   box-shadow: var(--box-shadow);
-  color: rgb(255, 255, 255);
+  color: #333;
   display: flex;
   justify-content: space-between;
   position: relative;

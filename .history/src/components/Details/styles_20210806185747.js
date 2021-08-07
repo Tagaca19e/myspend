@@ -4,14 +4,14 @@ import { makeStyles } from "@material-ui/core";
 export default makeStyles(() => ({
   income: {
     // borderBottom : '10px solid #a9abb3',
-    backgroundColor: "white",
-    color: "balck",
+    backgroundColor: "#25282c",
+    color: "#dde0e3",
     borderRadius: "15px",
   },
   expense: {
     // borderBottom : '10px solid #a9abb3',
-    backgroundColor: "white",
-    color: "balck",
+    backgroundColor: "blue",
+    color: "#dde0e3",
     borderRadius: "15px",
   },
 }));

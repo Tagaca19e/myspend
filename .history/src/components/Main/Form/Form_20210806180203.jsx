@@ -113,12 +113,11 @@ const Form = () => {
         </Typography>
       </Grid>
       <Grid item xs={6}>
-        <FormControl fullWidth style={{ color: "white" }}>
+        <FormControl fullWidth>
           <InputLabel style={{ color: "white" }}>Type</InputLabel>
           <Select
             value={formData.type}
             onChange={(e) => setFormData({ ...formData, type: e.target.value })}
-            style={{ color: "white" }}
           >
             <MenuItem value="Income">Income</MenuItem>
             <MenuItem value="Expense">Expense</MenuItem>
@@ -146,7 +145,6 @@ const Form = () => {
         <TextField
           type="number"
           label="Amount"
-          style={{ color: "white" }}
           fullWidth
           value={formData.amount}
           onChange={(e) => setFormData({ ...formData, amount: e.target.value })}
