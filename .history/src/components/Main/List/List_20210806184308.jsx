@@ -33,8 +33,8 @@ const List = () => {
               <Avatar
                 className={
                   transaction.type === "Income"
-                    ? classes.avatarIncome
-                    : classes.avatarExpense
+                  // ? classes.avatarIncome
+                  // : classes.avatarExpense
                 }
               >
                 <AttachMoney />

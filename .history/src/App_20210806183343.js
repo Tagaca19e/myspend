@@ -43,7 +43,7 @@ const App = () => {
             item
             xs={12}
             sm={4}
-            style={{ borderRadius: "15px" }}
+            style={{ boxShadow: "10px 5px 5px gray", borderRadius: "15px" }}
             className={classes.mobile}
           >
             <Details title="Income" />
@@ -55,7 +55,7 @@ const App = () => {
             xs={12}
             sm={3}
             borderRadius="50%"
-            style={{ borderRadius: "15px" }}
+            style={{ boxShadow: "5px 5px 5px gray", borderRadius: "15px" }}
             className={classes.main}
           >
             <Main />
@@ -80,10 +80,10 @@ const App = () => {
             <Details title="Expense" />
           </Grid>
         </Grid>
-        {/* <PushToTalkButtonContainer>
+        <PushToTalkButtonContainer>
           <PushToTalkButton />
           <ErrorPanel />
-        </PushToTalkButtonContainer> */}
+        </PushToTalkButtonContainer>
       </div>
     </ThemeProvider>
   );

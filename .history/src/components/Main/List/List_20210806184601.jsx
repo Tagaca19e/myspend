@@ -34,7 +34,7 @@ const List = () => {
                 className={
                   transaction.type === "Income"
                     ? classes.avatarIncome
-                    : classes.avatarExpense
+             
                 }
               >
                 <AttachMoney />

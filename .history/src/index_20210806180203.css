@@ -1,18 +1,13 @@
-#root,
-body,
-html {
+#root, body, html {
   height: 100%;
   margin: 0;
 }
 @font-face {
   font-family: "DejaVuSansMono";
-  src: local("DejaVuSansMono"),
-    url("./assets/fonts/DejaVuSansMono.ttf") format("truetype");
+  src : local("DejaVuSansMono"), url("./assets/fonts/DejaVuSansMono.ttf") format("truetype");
 }
-body,
-html,
-#root {
-  background-color: #100e19;
+body, html, #root {
+  background-color: #151618;
   font-family: "DejaVuSansMono";
   /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/bg.png);*/
   background-size: cover;

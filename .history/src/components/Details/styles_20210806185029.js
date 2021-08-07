@@ -12,6 +12,5 @@ export default makeStyles(() => ({
     // borderBottom : '10px solid #a9abb3',
     backgroundColor: "#25282c",
     color: "#dde0e3",
-    borderRadius: "15px",
   },
 }));

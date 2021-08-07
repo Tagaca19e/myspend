@@ -43,7 +43,7 @@ const App = () => {
             item
             xs={12}
             sm={4}
-            style={{ borderRadius: "15px" }}
+            style={{ boxShadow: "10px 5px 5px gray", borderRadius: "15px" }}
             className={classes.mobile}
           >
             <Details title="Income" />
