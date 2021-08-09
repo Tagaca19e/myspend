@@ -20,8 +20,8 @@ const Main = () => {
   return (
     <Card className={classes.root}>
       <CardHeader
-        title="iSpent"
-        subheader="by Eidmone 2021"
+        title="Expense Tracker"
+        subheader="Powered by Speechly"
         className={classes.promo}
       ></CardHeader>
       <CardContent>

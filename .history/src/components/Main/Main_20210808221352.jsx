@@ -21,7 +21,7 @@ const Main = () => {
     <Card className={classes.root}>
       <CardHeader
         title="iSpent"
-        subheader="by Eidmone 2021"
+        subheader="©Eidmone 2021"
         className={classes.promo}
       ></CardHeader>
       <CardContent>
