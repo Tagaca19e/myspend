@@ -8,7 +8,7 @@ const InfoCard = () => {
       Try saying:
       <br />
       Add {isIncome ? "Income " : "Expense "}
-      for {isIncome ? "10 " : "20 "} dollars under food
+      for {isIncome ? "10 " : "20 "} dollars under salary
     </div>
   );
 };
