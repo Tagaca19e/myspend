@@ -127,7 +127,7 @@ const Form = () => {
         </FormControl>
       </Grid>
       <Grid item xs={6}>
-        <FormControl fullWidth>
+        <button>
           <Select
             value={formData.category}
             onChange={(e) =>
@@ -140,7 +140,7 @@ const Form = () => {
               </MenuItem>
             ))}
           </Select>
-        </FormControl>
+        </button>
       </Grid>
       <Grid item xs={6}>
         <TextField

@@ -127,8 +127,9 @@ const Form = () => {
         </FormControl>
       </Grid>
       <Grid item xs={6}>
-        <FormControl fullWidth>
+        <FormControl fullWidth style={{ color: "black" }}>
           <Select
+            type="Category"
             value={formData.category}
             onChange={(e) =>
               setFormData({ ...formData, category: e.target.value })

@@ -12,7 +12,6 @@ import { borders } from "@material-ui/system";
 import Box from "@material-ui/core/Box";
 import { SpeechState, useSpeechContext } from "@speechly/react-client";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import "./App.css";
 
 const theme = createMuiTheme({
   typography: {

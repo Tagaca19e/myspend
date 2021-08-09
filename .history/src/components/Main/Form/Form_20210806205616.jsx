@@ -127,7 +127,7 @@ const Form = () => {
         </FormControl>
       </Grid>
       <Grid item xs={6}>
-        <FormControl fullWidth>
+        <FormControl fullWidth style={{marginTop: 10px}}>
           <Select
             value={formData.category}
             onChange={(e) =>

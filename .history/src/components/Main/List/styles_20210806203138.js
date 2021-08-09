@@ -9,7 +9,7 @@ export default makeStyles((theme) => ({
   avatarExpense: {
     color: theme.palette.getContrastText(red[500]),
 
-    backgroundColor: "#ff8585",
+    backgroundColor: "#FF4646",
   },
   list: {
     maxHeight: "150px",

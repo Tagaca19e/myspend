@@ -127,7 +127,8 @@ const Form = () => {
         </FormControl>
       </Grid>
       <Grid item xs={6}>
-        <FormControl fullWidth>
+        <InputLabel style={{ color: "black" }}>Type</InputLabel>
+        <form placeholder={"catasdfddjsfk"}>
           <Select
             value={formData.category}
             onChange={(e) =>
@@ -140,7 +141,7 @@ const Form = () => {
               </MenuItem>
             ))}
           </Select>
-        </FormControl>
+        </form>
       </Grid>
       <Grid item xs={6}>
         <TextField

@@ -108,18 +108,18 @@ const Form = () => {
           align="center"
           variant="subtitle2"
           gutterBottom
-          style={{ color: "black" }}
+          style={{ color: "white" }}
         >
           {segment && segment.words.map((w) => w.value).join(" ")}
         </Typography>
       </Grid>
       <Grid item xs={6}>
-        <FormControl fullWidth style={{ color: "black" }}>
-          <InputLabel style={{ color: "black" }}>Type</InputLabel>
+        <FormControl fullWidth style={{ color: "white" }}>
+          <InputLabel style={{ color: "white" }}>Type</InputLabel>
           <Select
             value={formData.type}
             onChange={(e) => setFormData({ ...formData, type: e.target.value })}
-            style={{ color: "black" }}
+            style={{ color: "white" }}
           >
             <MenuItem value="Income">Income</MenuItem>
             <MenuItem value="Expense">Expense</MenuItem>
@@ -127,7 +127,8 @@ const Form = () => {
         </FormControl>
       </Grid>
       <Grid item xs={6}>
-        <FormControl fullWidth>
+        <FormControl fullWidth style={{ color: "white" }}>
+          <InputLabel style={{ color: "white" }}>Category</InputLabel>
           <Select
             value={formData.category}
             onChange={(e) =>
@@ -146,7 +147,7 @@ const Form = () => {
         <TextField
           type="number"
           label="Amount"
-          style={{ color: "black" }}
+          style={{ color: "white" }}
           fullWidth
           value={formData.amount}
           onChange={(e) => setFormData({ ...formData, amount: e.target.value })}

@@ -126,8 +126,9 @@ const Form = () => {
           </Select>
         </FormControl>
       </Grid>
-      <Grid item xs={6}>
-        <FormControl fullWidth>
+      <Grid>
+        <InputLabel style={{ color: "black" }}>Type</InputLabel>
+        <FormControl fullWidth style={{ color: "black" }} label="Category">
           <Select
             value={formData.category}
             onChange={(e) =>

@@ -1,7 +1,7 @@
 import React from "react";
 import Snackbar from "@material-ui/core/Snackbar";
 import MuiAlert from "@material-ui/lab/Alert";
-import "./snack.css";
+
 import useStyles from "./styles";
 
 const CustomizedSnackbar = ({ open, setOpen }) => {
@@ -14,7 +14,7 @@ const CustomizedSnackbar = ({ open, setOpen }) => {
   };
 
   return (
-    <div className="snack">
+    <div>
       <Snackbar
         anchorOrigin={{ vertical: "top", horizontal: "right" }}
         open={open}

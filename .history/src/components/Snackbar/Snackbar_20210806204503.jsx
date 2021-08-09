@@ -1,7 +1,7 @@
 import React from "react";
 import Snackbar from "@material-ui/core/Snackbar";
 import MuiAlert from "@material-ui/lab/Alert";
-import "./snack.css";
+
 import useStyles from "./styles";
 
 const CustomizedSnackbar = ({ open, setOpen }) => {

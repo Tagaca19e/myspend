@@ -127,13 +127,14 @@ const Form = () => {
         </FormControl>
       </Grid>
       <Grid item xs={6}>
-        <FormControl fullWidth>
+        <FormControl fullWidth style={{ color: "black" }}>
           <Select
             value={formData.category}
             onChange={(e) =>
               setFormData({ ...formData, category: e.target.value })
             }
           >
+            <InputLabel style={{ color: "black" }}>Type</InputLabel>
             {selectedCategories.map((c) => (
               <MenuItem key={c.type} value={c.type}>
                 {c.type}
