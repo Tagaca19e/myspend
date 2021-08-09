@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/myspend/static/css/main.27c034a9.chunk.css",
-    "main.js": "/myspend/static/js/main.9f34d70d.chunk.js",
-    "main.js.map": "/myspend/static/js/main.9f34d70d.chunk.js.map",
+    "main.js": "/myspend/static/js/main.11944790.chunk.js",
+    "main.js.map": "/myspend/static/js/main.11944790.chunk.js.map",
     "runtime-main.js": "/myspend/static/js/runtime-main.9354da79.js",
     "runtime-main.js.map": "/myspend/static/js/runtime-main.9354da79.js.map",
-    "static/js/2.c128205b.chunk.js": "/myspend/static/js/2.c128205b.chunk.js",
-    "static/js/2.c128205b.chunk.js.map": "/myspend/static/js/2.c128205b.chunk.js.map",
+    "static/js/2.a0405212.chunk.js": "/myspend/static/js/2.a0405212.chunk.js",
+    "static/js/2.a0405212.chunk.js.map": "/myspend/static/js/2.a0405212.chunk.js.map",
     "index.html": "/myspend/index.html",
     "static/css/main.27c034a9.chunk.css.map": "/myspend/static/css/main.27c034a9.chunk.css.map",
-    "static/js/2.c128205b.chunk.js.LICENSE.txt": "/myspend/static/js/2.c128205b.chunk.js.LICENSE.txt",
+    "static/js/2.a0405212.chunk.js.LICENSE.txt": "/myspend/static/js/2.a0405212.chunk.js.LICENSE.txt",
     "static/media/App.css": "/myspend/static/media/DejaVuSansMono.4bb3391b.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.9354da79.js",
-    "static/js/2.c128205b.chunk.js",
+    "static/js/2.a0405212.chunk.js",
     "static/css/main.27c034a9.chunk.css",
-    "static/js/main.9f34d70d.chunk.js"
+    "static/js/main.11944790.chunk.js"
   ]
 }
